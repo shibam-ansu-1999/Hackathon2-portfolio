@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.main{
+	height: 657px;
+	background:url(https://www.quietevents.com/wp-content/uploads/2017/12/contactus-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.head{
+	font-size: 50px;
+	color:#FFF405;
+	display: flex;
+	background-color: #0542FF;
+	padding: 15px;
+	justify-content: center;
+	font-weight: 600;
+	animation: shadow 0.7s forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes shadow{
+	0%{
+		text-shadow:2px 2px  red;
+	}
+	50%{
+		text-shadow:2px 2px  green;
+	}
+	100%{
+		text-shadow:2px 2px  orange;
+	}
+}
+a{
+	text-decoration: none;
+	font-size: 25px;
+	color:yellow;
+}
+a:hover{
+	color: #17DD00;
+}
+.container{
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.icon{
+	width: 48%;
+	margin: 17px;
+	margin-bottom: 0px;
+	display: flex;
+	align-items: center;
+}
+.icon:hover{
+	transform: scale(1.2);
+}
+.icon img{
+ height: 65px;
+ width: 65px;
+}
+
+#whatsapp{
+	justify-content: flex-end;
+}
+#github{
+	justify-content: flex-end;
+}
+
+
